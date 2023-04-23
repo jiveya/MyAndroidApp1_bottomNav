@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_settings"
+        android:icon="@drawable/ic_settings"
+        android:orderInCategory="100"
+        android:title="Settings"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/bluetooth_connection"
+        android:icon="@drawable/bluetooth_icon"
+        android:orderInCategory="100"
+        android:title="Bluetooth Connection"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/notification"
+        android:icon="@drawable/ic_notifications"
+        android:orderInCategory="100"
+        android:title="Notification"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/contact"
+        android:orderInCategory="100"
+        android:title="Contact Us"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/exit"
+        android:icon="@drawable/ic_exit_to_app"
+        android:orderInCategory="100"
+        android:title="Exit/Log out"
+        app:showAsAction="never"/>
+    <!--    <item-->
+    <!--        android:id="@+id/home"-->
+    <!--        android:title="Home"-->
+    <!--        android:icon="@drawable/baseline_home_24"/>-->
+    <!--    <item-->
+    <!--        android:id="@+id/description"-->
+    <!--        android:title="Description"-->
+    <!--        android:icon="@drawable/baseline_description_24"/>-->
+    <!--    <item-->
+    <!--        android:id="@+id/summary"-->
+    <!--        android:title="Summary"-->
+    <!--        android:icon="@drawable/baseline_dataset_24"/>-->
+    <!--    <item-->
+    <!--        android:id="@+id/profile"-->
+    <!--        android:title="User Profile"-->
+    <!--        android:icon="@drawable/baseline_people_alt_24"/>-->
+
+
+</menu>
